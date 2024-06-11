@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkbox_subtask"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="24dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/edit_text_subtask_contents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="SubTask Contents"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:id="@+id/image_view_delete_subtask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_minus"/>
+
+
+</LinearLayout>
+
+
